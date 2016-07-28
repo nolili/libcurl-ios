@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.preserve_paths  = "include", "include/**/*.h"
+  s.public_header_files  = "include/**/*.h"
 
   # s.public_header_files = "Classes/**/*.h"
   s.vendored_libraries = "lib/libcurl.a"
